@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2? family= Fjalla+One & display=swap');
+body {
+margin: 0; 
+padding: 0; 
+font-family: 'Fjalla One', sans-serif;
+color: rgb(63, 4, 4); 
+background: #a97a7a; 
+font-size: 1em; 
+line-height: 1.5em;
+
+padding-top: 80px;
+}
+h1 {
+font-size: 2.3em; 
+font-family: 'Fjalla One', sans-serif;
+line-height: 1.3em; 
+margin: 15px 0; 
+text-align: center; 
+font-weight: 300;
+}
+p {
+margin: 0 0 1.5em 0;
+}
+img {
+max-width: 100%; 
+height: 453px;
+}
+
+/* CABECERA */ 
+#main-header {
+background: rgb(19, 62, 156); 
+color: rgb(0, 0, 0); 
+height: 80px;
+width: 100%; left: 0;
+top: 0; 
+position: fixed;
+}
+
+#main-header a {
+color: rgb(2, 0, 0);
+}
+
+/* Logo*/ 
+#logo-header {
+float: left; 
+padding: 15px 0 0 20px; 
+text-decoration: none;
+}
+
+#logo-header:hover {
+color: #3f0337; /* Color al desplazar el mouse sobre el logo- nombre */
+}
+
+#logo-header .site-name {
+display: block;
+font-weight: 700; 
+font-size: 1.2em;
+}
+
+#logo-header .site-desc {
+display: block; 
+font-weight: 300; 
+font-size: 0.8em; 
+color: rgb(0, 5, 24);
+}
+
+/* Navegación*/ 
+nav {
+float: right;
+}
+nav ul {
+margin: 0;
+padding: 0; 
+list-style: none; 
+padding-right: 20px;
+}
+
+nav ul li {
+display: inline-block; 
+line-height: 80px;
+}
+
+nav ul li a {
+display: block; 
+padding: 0 10px; 
+text-decoration: none;
+}
+
+nav ul li a:hover {
+background: #c79d85; /* Color al desplazar el mouse sobre el menú*/
+}
+
+/*CONTENIDO DE LA PÁGINA WEB*/ 
+#main-content {
+background: rgb(164, 203, 190);
+width: 90%;
+max-width: 800px; 
+margin: 20px auto; 
+box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+#main-content header,
+#main-content .content {
+padding: 40px;
+}
+
+/*PIE PÁGINA*/ 
+#main-footer {
+background: rgb(20, 2, 43);
+color: white; 
+text-align: center; 
+padding: 20px; 
+margin-top: 40px;
+}
+
+#main-footer p {
+margin: 0;
+}
+#main-footer a {
+color: white;
+}
